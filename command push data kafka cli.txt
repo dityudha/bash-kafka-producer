@@ -1,0 +1,1 @@
+cat /home/kafkaadmin/sample_data.txt | /opt/confluent-5.5.1/bin/kafka-console-producer --broker-list 10.243.215.138:9092 --topic "svrkafkatest.ods08kfi.sourcedb.bmodscbs.ddetrn2-json" --property parse.key=true --property key.separator=-
